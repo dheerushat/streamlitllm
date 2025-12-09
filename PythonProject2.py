@@ -3,6 +3,8 @@ import pandas as pd
 import fitz
 from openai import OpenAI
 
+api_key = st.secrets.openaiDetails.my_api_key
+st.write(api_key)
 # Load API key from Streamlit secrets
 api_key = st.secrets.openaiDetails.my_api_key
 
