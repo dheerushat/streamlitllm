@@ -19,8 +19,8 @@ st.text("""
 -Kazi Armaan Ahmed
 -Siddharth Birajdar
 """)
-api_key = st.secrets["my_api_key"]
-# st.write(api_key)
+api_key = st.secrets.openaiDetails.my_api_key
+st.write(api_key)
 
 
 
