@@ -20,7 +20,7 @@ st.text("""
 -Siddharth Birajdar
 """)
 api_key = st.secrets["my_api_key"]
-st.write(api_key)
+# st.write(api_key)
 
 
 
